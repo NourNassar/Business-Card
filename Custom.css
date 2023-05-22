@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parent {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.parent .layout {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid blue;
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.parent .img-div {
+    padding-right: 40px;
+
+}
+
+.parent .img-div img {
+    border-radius: 50%;
+    text-align: center;
+    padding: 14px;
+}
+
+/* .parent .myInfo {} */
+
+.parent .myInfo h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.parent .myInfo h2:hover {
+    color: blue;
+
+}
+
+.parent .myInfo p {
+    color: blue;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.parent .myInfo h4 {
+    color: black;
+}
